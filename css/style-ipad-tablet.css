@@ -1,9 +1,9 @@
 /*Media queries style                                max-width : 1800px*/
-@media only screen and (min-width : 768px) and (max-width : 1800px)  { 
+@media only screen and (min-width : 568px) and (max-width : 1800px)  { 
 	h1{font-size: 28pt;}
-	h2{font-size: 20pt;}
-	h3{font-size: 18pt;}
-	h4{font-size: 16pt;}
+	h2{font-size: 24pt;}
+	h3{font-size: 20pt;}
+	h4{font-size: 18pt;}
 
 	nav [class*="col-"]{
 		height: 44pt; /*48px*/
@@ -24,7 +24,8 @@
 	  height: 132pt;
 	  width: 132pt;
 	}
-	.control-label{
+	.control-label,
+	.div.drum-wrapper div.container, div.drum-wrapper figure{
 		font-size: 16pt;
 	}
 	.form-control{
@@ -32,7 +33,21 @@
 		font-size: 16pt;
 	}
 	footer [class*="col-"]{
-		height: 44pt; /*48px*/
+		height: 54pt; /*48px*/
+	}
+	.btnFooter .btn{
+		font-size: 18pt;
+	}
+	.modal-footer .btn{
+		font-size: 16pt;
+		height: 44pt;
+	}
+	input + label{
+		height: 16pt;
+    font-size: 12pt;
+	}
+	.outside div.drum-wrapper{
+		width: 88pt;
 	}
 
 }

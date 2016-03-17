@@ -67,6 +67,9 @@ nav [class*="col-"]{
 nav .btn{
 	padding: 0;
 }
+nav .left{
+	text-align: left;
+}
 nav .btn img.toLeft + [class*="lbl"]{
 	text-align: left;
 }
@@ -122,6 +125,9 @@ nav .item{
   font-size: 12pt;
 }
 
+.noShow{
+	opacity: 0;
+}
 .hideForm{
   display: none;
 }
@@ -163,15 +169,16 @@ nav .item{
     
 }
 
-.valid, textarea.valid{
-	border: 2px solid green;
-}
-
 .drum-wrapper{
 	display: inline-block;
 }
 .btn{
+	padding: 0 12px;
+}
 
+footer [class*="col-"]{
+	padding-top: 0;
+	padding-bottom: 0;
 }
 .btnFooter{
 	width: 100%;
@@ -184,4 +191,71 @@ nav .item{
 }
 .modal-title{
 	text-align: center;
+}
+.modal-backdrop.in{
+	opacity: .6;
+}
+.sizeCol {
+    height: 70%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.date_wrapper form{
+	text-align: center;
+}
+
+.eac-sugg{
+    line-height: 27pt !important;
+    font-family: Open Sans !important;
+    font-size: 16pt;
+    padding: 0 12px;
+}
+.eac-input-wrap{
+	display: block !important;
+}
+
+input + label{
+	text-align: left;    
+    display: block !important;    
+    position: absolute;
+}
+input.error{
+	margin-left: 0 !important;
+}
+
+.modal{
+  animation: modalComeIn 0.45s ease;  
+  -webkit-animation: modalComeIn 0.45s ease;  
+}
+
+@-webkit-keyframes modalComeIn{
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3D(0,300px,0) scale(0.8);
+  }
+  65% {
+    -webkit-transform: translate3D(0,0,0) scale(1.03);
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: scale(1, 1);
+  }
+}
+@keyframes modalComeIn{
+  0% {
+    opacity: 0;
+    transform: translate3D(0,300px,0) scale(0.8);
+  }
+  65% {
+    transform: translate3D(0,0,0) scale(1.03);
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1, 1);
+  }
 }
