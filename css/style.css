@@ -1,0 +1,187 @@
+@font-face {
+  font-family: Open Sans;
+  src: url('../fonts/Open Sans.ttf');
+}
+
+/* centering styles for jsbin */
+html,
+body {
+  width:100%;
+  height:100%;
+  font-family: 'Open Sans', cursive !important;
+}
+html {
+  display:table;
+}
+body {
+/*  display:table-cell;
+  vertical-align:middle;*/
+}
+.container{
+	position: relative;
+	height: 100%;
+}
+footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+/* centered columns styles */
+.row-centered {
+  text-align:center;
+  position: relative;
+}
+.col-centered {
+  display:inline-block;
+  float:none;
+  /* reset the text-align */
+  text-align:left;
+  /* inline-block space fix */
+  margin-right:-4px;
+}
+.sizeRow{
+	position: relative;
+}
+.sizeBtnStart{
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 320px;
+    width: 100%;
+    margin: auto;
+}
+
+[class*="col-"] {
+  padding-top:5pt;
+  padding-bottom:15pt;
+  background:#d6d6d6;
+}
+
+nav [class*="col-"]{
+	padding: 0;
+}
+nav .btn{
+	padding: 0;
+}
+nav .btn img.toLeft + [class*="lbl"]{
+	text-align: left;
+}
+nav .btn img.toRight + [class*="lbl"]{
+	text-align: right;
+}
+nav .btn img.toLeft{
+	float: left;
+}
+nav .item{
+	display: block;
+	padding: 0;
+    height: 100%;
+}
+
+.item {
+  width:100%;
+  padding:10px 8px;
+  background:#ededed;
+}
+
+/* content styles */
+.item {
+  display:table;
+}
+
+/*customize style*/
+.welcomeMessage{
+  text-align: center;
+}
+.welcomeMessage h2{
+  display: inline;
+}
+
+.btnStartRegistration{
+  height: 120pt;
+  width: 120pt;
+  border-radius: 50%;
+  font-size: 18pt;
+  text-transform: uppercase;
+  outline:0px !important;
+  -webkit-appearance:none;
+}
+.btnStartRegistration:hover,
+.btnStartRegistration:active{
+  outline:0px !important;
+  -webkit-appearance:none;
+}
+.btnStartRegistration div:nth-child(1){
+  font-size: 20pt;
+}
+.btnStartRegistration div:nth-child(2){
+  font-size: 12pt;
+}
+
+.hideForm{
+  display: none;
+}
+.showForm{
+  display: block;
+}
+.hideStart{
+  display: none;
+}
+.showStart{
+  display: block;
+}
+.ui-datepicker{
+  background-color: white;
+}
+.btnReturn{
+  background-color: transparent;
+}
+
+.control-label{
+  width: 100%;
+  text-align: left;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.error{
+	display: none;
+	margin-left: 10px;
+}		
+
+.error_show{
+	color: red;
+	margin-left: 10px;
+}
+
+.invalid, textarea.invalid{
+	border: 2px solid red !important;
+    
+}
+
+.valid, textarea.valid{
+	border: 2px solid green;
+}
+
+.drum-wrapper{
+	display: inline-block;
+}
+.btn{
+
+}
+.btnFooter{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+}
+.btnFooter .btn{
+	width: 100%;
+	height: 100%;
+}
+.modal-title{
+	text-align: center;
+}

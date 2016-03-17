@@ -1,0 +1,38 @@
+/*Media queries style                                max-width : 1800px*/
+@media only screen and (min-width : 768px) and (max-width : 1800px)  { 
+	h1{font-size: 28pt;}
+	h2{font-size: 20pt;}
+	h3{font-size: 18pt;}
+	h4{font-size: 16pt;}
+
+	nav [class*="col-"]{
+		height: 44pt; /*48px*/
+	}
+	.btn.withSVG{	
+		width: 132pt;  44pt*3
+		height: 44pt;
+	}
+	.btn img{
+		width: 44pt;
+		height: 44pt;
+	}
+	nav [class*="lbl"]{
+		line-height: 44pt;
+		font-size: 16pt;
+	}
+	.btnStartRegistration{
+	  height: 132pt;
+	  width: 132pt;
+	}
+	.control-label{
+		font-size: 16pt;
+	}
+	.form-control{
+		height: 44pt;
+		font-size: 16pt;
+	}
+	footer [class*="col-"]{
+		height: 44pt; /*48px*/
+	}
+
+}

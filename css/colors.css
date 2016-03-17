@@ -1,0 +1,100 @@
+body,
+html{
+	/*background: rgba(57,57,57,1);*/
+/*	background: -moz-linear-gradient(top, rgba(57,57,57,1) 0%, rgba(110,110,110,1) 100%),url('../images/noise.png');
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(57,57,57,1)), color-stop(100%, rgba(110,110,110,1))),url('../images/noise.png');
+	background: -webkit-linear-gradient(top, rgba(57,57,57,1) 0%, rgba(110,110,110,1) 100%),url('../images/noise.png');
+	background: -o-linear-gradient(top, rgba(57,57,57,1) 0%, rgba(110,110,110,1) 100%),url('../images/noise.png');
+	background: -ms-linear-gradient(top, rgba(57,57,57,1) 0%, rgba(110,110,110,1) 100%),url('../images/noise.png');*/
+	background-image: url('../images/noise.png'),linear-gradient(to bottom, rgba(57,57,57,1) 0%, rgba(110,110,110,1) 100%);
+	background-repeat: repeat;
+	color: white;
+}
+
+[class*="col-"]{
+	background-color: transparent;
+}
+.item{
+	background-color: transparent;
+	color: white;
+}
+.btnStartRegistration{  
+  background: rgba(243,131,62,1);
+  background: -moz-linear-gradient(top, rgba(243,131,62,1) 0%, rgba(255,91,9,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(243,131,62,1)), color-stop(100%, rgba(255,91,9,1)));
+  background: -webkit-linear-gradient(top, rgba(243,131,62,1) 0%, rgba(255,91,9,1) 100%);
+  background: -o-linear-gradient(top, rgba(243,131,62,1) 0%, rgba(255,91,9,1) 100%);
+  background: -ms-linear-gradient(top, rgba(243,131,62,1) 0%, rgba(255,91,9,1) 100%);
+  background: linear-gradient(to bottom, rgba(243,131,62,1) 0%, rgba(255,91,9,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3833e', endColorstr='#ff5b09', GradientType=0 );
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.15);
+  border-color: transparent;
+  text-shadow: 0 1px 1px rgba(43,31,2,.5);
+  color: white;
+}
+
+.btnStartRegistration:hover{  
+  background: rgba(255,153,0,1);
+	background: -moz-linear-gradient(top, rgba(255,153,0,1) 0%, rgba(255,91,9,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,153,0,1)), color-stop(100%, rgba(255,91,9,1)));
+	background: -webkit-linear-gradient(top, rgba(255,153,0,1) 0%, rgba(255,91,9,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,153,0,1) 0%, rgba(255,91,9,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,153,0,1) 0%, rgba(255,91,9,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,153,0,1) 0%, rgba(255,91,9,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9900', endColorstr='#ff5b09', GradientType=0 );
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.15);
+  border-color: transparent;
+  text-shadow: 0 1px 1px rgba(43,31,2,.5);
+  color: white;
+}
+
+.btnStartRegistration:active{  
+  background: #ff5b09;
+  border-color: transparent;
+  color: #333;
+}
+
+.btnStartRegistration div:nth-child(1){
+  color: white;
+}
+.btnStartRegistration div:nth-child(2){
+  color: white;
+}
+.btnReturn{
+  background-color: transparent;
+  color: white;
+}
+
+
+.modal-content{
+	background: rgba(243,131,62,1);
+background: -moz-linear-gradient(top, rgba(243,131,62,1) 0%, rgba(255,91,9,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(243,131,62,1)), color-stop(100%, rgba(255,91,9,1)));
+background: -webkit-linear-gradient(top, rgba(243,131,62,1) 0%, rgba(255,91,9,1) 100%);
+background: -o-linear-gradient(top, rgba(243,131,62,1) 0%, rgba(255,91,9,1) 100%);
+background: -ms-linear-gradient(top, rgba(243,131,62,1) 0%, rgba(255,91,9,1) 100%);
+background: linear-gradient(to bottom, rgba(243,131,62,1) 0%, rgba(255,91,9,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3833e', endColorstr='#ff5b09', GradientType=0 );
+}
+
+div.drum-wrapper div.container, div.drum-wrapper figure{
+  color: white !important;
+}
+
+.form-control:focus {
+    border-color: #ff9900;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(255, 153, 0,0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(255, 153, 0,0.6);
+}
+
+footer{
+	background-color: #6e6e6e;
+}
+
+.btn,.btn:hover,.btn:active,.btn:focus{
+	background-color: transparent;
+	border-color: transparent;
+}
+nav .btn:hover{
+	color: white;
+}
